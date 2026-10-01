@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brahim Bohrouz | Technicien IT Support & Réseaux</title>
+    <!-- Meta Tags SEO -->
+    <meta name="description" content="Portfolio de Brahim Bohrouz - Technicien IT Support, Systèmes et Réseaux à Meknès.">
+    
+    <!-- Google Fonts & FontAwesome Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Noto+Sans+Arabic:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.jpg" type="image/jpeg">
+</head>
+<body>
+
+
+    <!-- Navigation Header -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">BRAHIM <span>BOHROUZ</span></a>
+            <div class="header-actions">
+                <button class="nav-toggle" type="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="main-navigation">
+                    <i class="fa-solid fa-bars" aria-hidden="true"></i>
+                </button>
+                <div class="lang-switch">
+                    <button id="lang-fr" class="lang-btn active" type="button" aria-label="Français">FR</button> |
+                    <button id="lang-en" class="lang-btn" type="button" aria-label="English">EN</button> |
+                    <button id="lang-ar" class="lang-btn" type="button" aria-label="العربية">AR</button>
+                </div>
+                <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch to light theme" title="Switch to light theme">
+                    <i class="fa-solid fa-sun" aria-hidden="true"></i>
+                </button>
+                <a href="./CV-BRAHIM.pdf" download="CV-BRAHIM.pdf" class="btn btn-primary cv-download" data-i18n-title="nav.download_cv">
+                    <i class="fa-solid fa-download" aria-hidden="true"></i>
+                    <span data-i18n="nav.download_cv">Télécharger CV</span>
+                </a>
+            </div>
+            <nav class="nav-links" id="main-navigation">
+    <a href="#home" data-i18n="nav.about">À propos</a>
+    <a href="#experience" data-i18n="nav.experience">Expérience</a>
+    <a href="#projects" data-i18n="nav.projects">Projets</a>
+    <a href="#skills" data-i18n="nav.skills">Compétences</a>
+    <a href="#certifications" data-i18n="nav.certifications">Certifications</a>
+    <a href="#contact" data-i18n="nav.contact">Contact</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <canvas class="network-canvas" aria-hidden="true"></canvas>
+        <div class="network-icon-layer" aria-hidden="true">
+            <i class="fa-solid fa-server network-icon network-icon-server"></i>
+            <i class="fa-solid fa-network-wired network-icon network-icon-switch"></i>
+            <i class="fa-solid fa-wifi network-icon network-icon-wifi"></i>
+            <i class="fa-solid fa-shield-halved network-icon network-icon-firewall"></i>
+            <i class="fa-solid fa-database network-icon network-icon-storage"></i>
+        </div>
+        <div class="container hero-container">
+            <div class="hero-text">
+                <h1>BRAHIM <span>BOHROUZ</span></h1>
+                <h2 data-i18n="hero.role">Technicien IT Support <span data-i18n="hero.specialty">| Systèmes & Réseaux</span></h2>
+                <p data-i18n="hero.description">Spécialisé dans l'administration système, la gestion des infrastructures réseaux Cisco/Linux et le support technique IT d'entreprise.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary" data-i18n="hero.contact_me">Me Contacter</a>
+                    <a href="#projects" class="btn btn-secondary" data-i18n="hero.view_projects">Voir mes projets</a>
+                </div>
+            </div>
+            <div class="hero-avatar">
+                <img src="brahim-bohrouz.jpg" alt="Brahim Bohrouz">
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience-section">
+        <div class="container">
+            <h2 class="section-title"><i class="fa-solid fa-briefcase"></i> <span data-i18n="experience.title">Expérience Professionnelle</span></h2>
+            <div class="timeline">
+                
+                <!-- Expérience 1: Société IQRAE -->
+                <div class="timeline-item">
+                    <div class="timeline-icon"><i class="fa-solid fa-building"></i></div>
+                    <div class="timeline-content">
+                        <span class="date" data-i18n="experience.iqrae.date">Septembre 2026 – Présent</span>
+                        <h3 data-i18n="experience.iqrae.role">Technicien Informatique (IT Support)</h3>
+                        <p class="company" data-i18n="experience.iqrae.company">Société IQRAE – Meknès</p>
+                        <ul>
+                            <li data-i18n="experience.iqrae.task1">Assistance et support technique aux utilisateurs (matériel et logiciel).</li>
+                            <li data-i18n="experience.iqrae.task2">Gestion et maintenance du parc informatique et des équipements réseaux.</li>
+                            <li data-i18n="experience.iqrae.task3">Suivi de la connectivité et résolution des incidents systèmes et réseaux.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Expérience 2: YAZAKI -->
+                <div class="timeline-item">
+                    <div class="timeline-icon"><i class="fa-solid fa-industry"></i></div>
+                    <div class="timeline-content">
+                        <span class="date" data-i18n="experience.yazaki.date">Avril 2026 – Août 2026 (5 mois)</span>
+                        <h3 data-i18n="experience.yazaki.role">Stagiaire IT Support</h3>
+                        <p class="company" data-i18n="experience.yazaki.company">YAZAKI – Meknès</p>
+                        <ul>
+                            <li data-i18n="experience.yazaki.task1">Assistance technique aux utilisateurs et installation des postes de travail.</li>
+                            <li data-i18n="experience.yazaki.task2">Surveillance du réseau local (LAN/Wi-Fi), imprimantes IP et téléphonie IP.</li>
+                            <li data-i18n="experience.yazaki.task3">Support technique lié aux systèmes de production industrielle et SAP ERP.</li>
+                            <li data-i18n="experience.yazaki.task4">Utilisation avancée de Microsoft Excel pour la préparation de rapports.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Expérience 3: Direction Provinciale -->
+                <div class="timeline-item">
+                    <div class="timeline-icon"><i class="fa-solid fa-school"></i></div>
+                    <div class="timeline-content">
+                        <span class="date" data-i18n="experience.education.date">Mai 2025 – Juin 2025 (1 mois)</span>
+                        <h3 data-i18n="experience.education.role">Stagiaire Réseaux & Systèmes (Stage PFE)</h3>
+                        <p class="company" data-i18n="experience.education.company">Direction Provinciale de l’Éducation Nationale – Sefrou</p>
+                        <ul>
+                            <li data-i18n="experience.education.task1">Mise en place et configuration d’un serveur Proxy sous Ubuntu.</li>
+                            <li data-i18n="experience.education.task2">Configuration du filtrage web, gestion des accès et journalisation des flux.</li>
+                            <li data-i18n="experience.education.task3">Rédaction d'une documentation technique détaillée.</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title"><i class="fa-solid fa-diagram-project"></i> <span data-i18n="projects.title">Projets & Réalisations</span></h2>
+            <div class="projects-grid">
+                
+                <!-- Projet 1: Infrastructure Réseau Virtuelle & Admin Système -->
+                <div class="project-card featured">
+                    <div class="project-header">
+                        <i class="fa-solid fa-network-wired project-icon"></i>
+                        <span class="project-badge" data-i18n="projects.featured">Projet Principal</span>
+                    </div>
+                    <h3 data-i18n="projects.infrastructure.title">Infrastructure Réseau Virtuelle & Administration Système</h3>
+                    <p class="project-subtitle" data-i18n="projects.infrastructure.subtitle">Ubuntu Server 24.04 LTS & Cisco Architecture</p>
+                    <ul class="project-details">
+                        <li><strong data-i18n="projects.infrastructure.label1">Administration Système:</strong> <span data-i18n="projects.infrastructure.detail1">Déploiement et configuration des services réseau sous Ubuntu Server 24.04 LTS (DNS, DHCP, SSH, Web Apache2, Samba).</span></li>
+                        <li><strong data-i18n="projects.infrastructure.label2">Réseau & Sécurité Cisco:</strong> <span data-i18n="projects.infrastructure.detail2">Configuration des VLANs, Inter-VLAN routing, OSPF, NAT et règles de sécurité ACLs.</span></li>
+                        <li><strong data-i18n="projects.infrastructure.label3">Virtualisation & Simulation:</strong> <span data-i18n="projects.infrastructure.detail3">Modélisation de l'architecture sous GNS3 / VMware / VirtualBox avec sécurisation des accès.</span></li>
+                    </ul>
+                    <div class="tags">
+                        <span>Ubuntu 24.04</span>
+                        <span>Cisco OSPF/VLAN</span>
+                        <span>GNS3</span>
+                        <span>VMware</span>
+                        <span>Apache2 / Samba</span>
+                    </div>
+                </div>
+
+                <!-- Projet 2: Zabbix Supervision -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fa-solid fa-chart-line project-icon"></i>
+                    </div>
+                    <h3 data-i18n="projects.zabbix.title">Supervision Réseau avec Zabbix</h3>
+                    <p data-i18n="projects.zabbix.description">Déploiement d'un serveur Zabbix sous Debian pour la surveillance en temps réel des hôtes, alertes par email et génération de graphiques de performance.</p>
+                    <div class="tags">
+                        <span>Zabbix</span>
+                        <span>Linux Debian</span>
+                        <span>SNMP</span>
+                        <span data-i18n="projects.tag.monitoring">Supervision</span>
+                    </div>
+                </div>
+
+                <!-- Projet 3: Serveur Proxy Ubuntu -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fa-solid fa-shield-halved project-icon"></i>
+                    </div>
+                    <h3 data-i18n="projects.proxy.title">Serveur Proxy & Sécurité Web</h3>
+                    <p data-i18n="projects.proxy.description">Mise en place d'une solution de filtrage réseau sous Ubuntu pour sécuriser les accès Internet et analyser la journalisation des flux d'entreprise.</p>
+                    <div class="tags">
+                        <span>Ubuntu</span>
+                        <span>Proxy / Squid</span>
+                        <span data-i18n="projects.tag.filtering">Filtrage Web</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title"><i class="fa-solid fa-gears"></i> <span data-i18n="skills.title">Compétences Techniques</span></h2>
+            <div class="skills-grid">
+                
+                <div class="skill-card">
+                    <i class="fa-solid fa-server skill-icon"></i>
+                    <h3 data-i18n="skills.systems.title">Administration Systèmes</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> <span data-i18n="skills.systems.item1">Windows Server (AD DS, DNS, DHCP)</span></li>
+                        <li><i class="fa-solid fa-check"></i> <span data-i18n="skills.systems.item2">Linux (Ubuntu, Debian, CentOS)</span></li>
+                        <li><i class="fa-solid fa-check"></i> <span data-i18n="skills.systems.item3">Services (Apache, Samba, SSH)</span></li>
+                        <li><i class="fa-solid fa-check"></i> <span data-i18n="skills.systems.item4">Gestion des GPO & Droits d'accès</span></li>
+                    </ul>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fa-solid fa-route skill-icon"></i>
+                    <h3 data-i18n="skills.network.title">Réseaux & Sécurité</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> <span data-i18n="skills.network.item1">Routing (OSPF, NAT, Static)</span></li>
+                        <li><i class="fa-solid fa-check"></i> <span data-i18n="skills.network.item2">Switching (VLAN, Inter-VLAN, STP)</span></li>
+                        <li><i class="fa-solid fa-check"></i> <span data-i18n="skills.network.item3">Sécurité ACLs & Firewalls</span></li>
+                        <li><i class="fa-solid fa-check"></i> <span data-i18n="skills.network.item4">Wi-Fi Enterprise & VoIP</span></li>
+                    </ul>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fa-solid fa-desktop skill-icon"></i>
+                    <h3 data-i18n="skills.support.title">Support IT & Outils</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> <span data-i18n="skills.support.item1">Maintenance Matériel & Logiciel</span></li>
+                        <li><i class="fa-solid fa-check"></i> <span data-i18n="skills.support.item2">SAP ERP Support</span></li>
+                        <li><i class="fa-solid fa-check"></i> <span data-i18n="skills.support.item3">Virtualisation (VMware, VirtualBox)</span></li>
+                        <li><i class="fa-solid fa-check"></i> <span data-i18n="skills.support.item4">Outils (AnyDesk, Wireshark, GNS3)</span></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="cert-section">
+        <div class="container">
+            <h2 class="section-title"><i class="fa-solid fa-award"></i> <span data-i18n="certifications.title">Certifications Cisco</span></h2>
+            <div class="cert-grid">
+                <div class="cert-card">
+                    <i class="fa-solid fa-certificate cert-icon"></i>
+                    <h3 data-i18n="certifications.ccna1">CCNA – Switching, Routing & Wireless</h3>
+                    <p data-i18n="certifications.academy">Cisco Networking Academy</p>
+                </div>
+                <div class="cert-card">
+                    <i class="fa-solid fa-certificate cert-icon"></i>
+                    <h3 data-i18n="certifications.ccna2">CCNA – Enterprise Networking & Security</h3>
+                    <p data-i18n="certifications.academy">Cisco Networking Academy</p>
+                </div>
+                <div class="cert-card">
+                    <i class="fa-solid fa-certificate cert-icon"></i>
+                    <h3 data-i18n="certifications.cyber">CyberOps Associate & Ethical Hacker</h3>
+                    <p data-i18n="certifications.pathways">Cisco Cybersecurity Pathways</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+<section id="contact" class="contact-section">
+    <div class="container">
+        <h2 class="section-title"><i class="fa-solid fa-envelope"></i> <span data-i18n="contact.title">Contactez-moi</span></h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3 data-i18n="contact.heading">Discutons d'une opportunité ou d'un projet IT</h3>
+                <p data-i18n="contact.description">N'hésitez pas à me contacter directement via les liens ci-dessous :</p>
+
+                
+                <div class="social-contact-btns">
+                    <a href="mailto:brahimbohrouz82@gmail.com" class="contact-btn gmail-btn" title="Envoyer un Email" data-i18n-title="contact.email">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                    <a href="https://wa.me/212672833554" target="_blank" rel="noopener noreferrer" class="contact-btn whatsapp-btn" title="Discuter sur WhatsApp" data-i18n-title="contact.whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/brahim-bohrouz-566383345/" target="_blank" rel="noopener noreferrer" class="contact-btn linkedin-btn" title="Profil LinkedIn" data-i18n-title="contact.linkedin">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/BRAHIM-BOHROUZ" target="_blank" rel="noopener noreferrer" class="contact-btn github-btn" title="Profil GitHub" data-i18n-title="contact.github">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+
+                <div class="location-box">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span data-i18n="contact.location">Meknès, Maroc</span>
+                </div>
+            </div>
+
+           
+
+                <form id="contact-form" class="contact-form">
+                    <input type="text" name="user_name" placeholder="Votre Nom complet" data-i18n-placeholder="contact.name" required>
+                    <input type="email" name="user_email" placeholder="Votre Adresse Email" data-i18n-placeholder="contact.email_placeholder" required>
+                    <input type="text" name="subject" placeholder="Sujet" data-i18n-placeholder="contact.subject" required>
+                    <textarea name="message" rows="5" placeholder="Votre Message..." data-i18n-placeholder="contact.message" required></textarea>
+                    <button type="submit" class="btn btn-primary" data-i18n="contact.send">Envoyer le message</button>
+                    <p id="form-status"></p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <p data-i18n="footer.rights">© BRAHIM BOHROUZ. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- EmailJS SDK & JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
