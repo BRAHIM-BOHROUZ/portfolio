@@ -191,6 +191,11 @@ const translations = {
 };
 
 let currentLanguage = "fr";
+const cvFiles = {
+    fr: "CV-BRAHIM.pdf",
+    en: "CV Brahim English.pdf",
+    ar: "CV-BRAHIM.pdf"
+};
 
 function setLanguage(language) {
     const selectedLanguage = translations[language] ? language : "fr";
@@ -225,6 +230,9 @@ function setLanguage(language) {
     document.querySelectorAll(".lang-btn").forEach(button => {
         button.classList.toggle("active", button.id === `lang-${selectedLanguage}`);
     });
+    const cvDownload = document.querySelector(".cv-download");
+    cvDownload.href = `./${cvFiles[selectedLanguage]}`;
+    cvDownload.download = cvFiles[selectedLanguage];
     localStorage.setItem("selectedLanguage", selectedLanguage);
     updateThemeToggleLabel();
 }
